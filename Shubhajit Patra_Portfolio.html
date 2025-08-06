@@ -1,0 +1,252 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubhajit Patra | Freelance Data Analyst</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Custom styles to apply the fonts */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa; /* Soft grey background */
+            color: #343A40; /* Dark grey text */
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .accent-color {
+            color: #007BFF; /* Bright blue accent */
+        }
+        .accent-bg {
+            background-color: #007BFF;
+        }
+        .secondary-accent-color {
+            color: #20C997; /* Teal accent */
+        }
+        .section {
+            padding: 4rem 1rem;
+        }
+        @media (min-width: 768px) {
+            .section {
+                padding: 6rem 2rem;
+            }
+        }
+        .glassmorphism-card {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold accent-color">Shubhajit Patra</a>
+            <div class="hidden md:flex space-x-6 text-lg">
+                <a href="#about" class="hover:accent-color transition-colors">About</a>
+                <a href="#skills" class="hover:accent-color transition-colors">Skills</a>
+                <a href="#projects" class="hover:accent-color transition-colors">Projects</a>
+                <a href="#contact" class="hover:accent-color transition-colors">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#about" class="block py-2 px-4 text-sm hover:bg-gray-200">About</a>
+            <a href="#skills" class="block py-2 px-4 text-sm hover:bg-gray-200">Skills</a>
+            <a href="#projects" class="block py-2 px-4 text-sm hover:bg-gray-200">Projects</a>
+            <a href="#contact" class="block py-2 px-4 text-sm hover:bg-gray-200">Contact</a>
+        </div>
+    </header>
+
+    <main class="relative overflow-hidden">
+        <div class="absolute inset-0 bg-grid-gray-200/50 [mask-image:linear-gradient(to_bottom,white_50%,transparent_100%)]"></div>
+        <div class="container mx-auto px-6 py-20 md:py-32 text-center relative z-10">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-8">
+                <img src="https://placehold.co/150x150/007BFF/FFFFFF?text=SP" alt="Shubhajit Patra Headshot" class="rounded-full w-36 h-36 md:w-48 md:h-48 border-4 border-white shadow-lg">
+                <div class="text-center md:text-left">
+                    <h1 class="text-4xl md:text-6xl font-bold tracking-tight">Shubhajit Patra</h1>
+                    <p class="text-xl md:text-2xl mt-4 secondary-accent-color font-semibold">
+                        Freelance Data Analyst | Python | Power BI | Excel
+                    </p>
+                    <p class="mt-4 max-w-2xl mx-auto md:mx-0 text-lg text-gray-600">
+                        Transforming raw data into clear, actionable insights to help businesses make smarter decisions.
+                    </p>
+                    <div class="mt-8 flex justify-center md:justify-start space-x-4">
+                        <a href="#projects" class="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition-transform transform hover:scale-105 shadow-lg">
+                            View My Work
+                        </a>
+                        <a href="mailto:shubhajitpatra66@gmail.com" class="bg-white text-blue-600 font-bold py-3 px-6 rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition-transform transform hover:scale-105 shadow-lg">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section id="about" class="section bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">About Me</h2>
+            <div class="max-w-4xl mx-auto text-center text-lg text-gray-700 leading-relaxed">
+                <p>
+                    I'm a motivated and detail-oriented B.Tech Computer Science student with a passion for data. My coursework in <strong>Data Structures & Algorithms</strong> and <strong>Object-Oriented Programming</strong> has provided me with a strong technical foundation, which I apply to solve real-world challenges.
+                </p>
+                <p class="mt-4">
+                    I leverage my proficiency in <strong class="secondary-accent-color">Python, SQL,</strong> and visualization tools like <strong class="secondary-accent-color">Power BI</strong> and <strong class="secondary-accent-color">Excel</strong> to not just analyze data, but to tell compelling stories with it. I am driven by curiosity and a desire to build efficient, elegant solutions. I'm currently seeking freelance opportunities where I can help clients with data analysis, reporting, and automation.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">My Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 max-w-5xl mx-auto">
+                <div class="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                    <i class="fab fa-python text-5xl accent-color mb-4"></i>
+                    <h3 class="text-xl font-semibold">Python</h3>
+                    <p class="text-sm text-gray-500">(Pandas, NumPy)</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                    <i class="fas fa-database text-5xl accent-color mb-4"></i>
+                    <h3 class="text-xl font-semibold">SQL</h3>
+                     <p class="text-sm text-gray-500">(MySQL)</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                    <i class="fas fa-file-excel text-5xl text-green-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold">Excel</h3>
+                    <p class="text-sm text-gray-500">(Pivot Tables, VBA)</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                    <i class="fas fa-chart-bar text-5xl text-yellow-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold">Power BI</h3>
+                    <p class="text-sm text-gray-500">(DAX, Power Query)</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                    <i class="fas fa-chart-line text-5xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold">Tableau</h3>
+                    <p class="text-sm text-gray-500">(Dashboards)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">Projects Portfolio</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 rounded-lg shadow-md overflow-hidden group transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://image.pollinations.ai/prompt/ui%20dashboard" alt="Power BI Dashboard" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Power BI Dashboard</h3>
+                        <p class="text-gray-600 mb-4">An interactive dashboard to analyze sales data, featuring KPIs for revenue, profit, and regional performance.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-yellow-200 text-yellow-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Power BI</span>
+                            <span class="bg-green-200 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Excel</span>
+                            <span class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">DAX</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg shadow-md overflow-hidden group transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://image.pollinations.ai/prompt/library%20management%20system%20interface" alt="Library Management System" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Library Management System</h3>
+                        <p class="text-gray-600 mb-4">A Python application to manage book records and member details, demonstrating OOP and file handling skills.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-200 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Python</span>
+                            <span class="bg-purple-200 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">OOPs</span>
+                            <span class="bg-gray-200 text-gray-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">SQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg shadow-md overflow-hidden group transform hover:scale-105 transition-transform duration-300">
+                    <img src="https://image.pollinations.ai/prompt/hangman%20game%20screen" alt="Hangman Game" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Hangman Game</h3>
+                        <p class="text-gray-600 mb-4">A classic Hangman game developed in Python to sharpen logic, control flow, and user input handling.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-200 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">Certifications</h2>
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-12">
+                <div class="text-center">
+                    <img src="https://placehold.co/100x100/000000/FFFFFF?text=Deloitte" alt="Deloitte Logo" class="h-20 mx-auto mb-2 grayscale hover:grayscale-0 transition-all">
+                    <p class="font-semibold">Forage Deloitte</p>
+                </div>
+                 <div class="text-center">
+                    <img src="https://placehold.co/100x100/0d6efd/FFFFFF?text=Coursera" alt="Coursera Logo" class="h-20 mx-auto mb-2 grayscale hover:grayscale-0 transition-all">
+                    <p class="font-semibold">Coursera Excel</p>
+                </div>
+                 <div class="text-center">
+                    <img src="https://placehold.co/100x100/f0ad4e/FFFFFF?text=SQL" alt="SQL Logo" class="h-20 mx-auto mb-2 grayscale hover:grayscale-0 transition-all">
+                    <p class="font-semibold">SQL 30-Day Challenge</p>
+                </div>
+                 <div class="text-center">
+                    <img src="https://placehold.co/100x100/5cb85c/FFFFFF?text=GL" alt="Great Learning Logo" class="h-20 mx-auto mb-2 grayscale hover:grayscale-0 transition-all">
+                    <p class="font-semibold">Power BI Micro Course</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="contact" class="section bg-gray-800 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-4">Let's Connect</h2>
+            <p class="max-w-2xl mx-auto mb-8 text-gray-300">
+                I'm available for freelance projects and collaborations. If you have a data challenge or just want to connect, feel free to reach out!
+            </p>
+            <a href="mailto:shubhajitpatra66@gmail.com" class="accent-bg text-white font-bold py-4 px-8 rounded-lg hover:bg-blue-700 transition-all text-lg inline-block shadow-lg">
+                shubhajitpatra66@gmail.com
+            </a>
+            <div class="mt-12 flex justify-center space-x-8">
+                <a href="https://github.com/Shubhajit00" target="_blank" class="text-4xl text-gray-400 hover:text-white transition-transform transform hover:scale-125">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/shubhajit-patra-0b72a4368" target="_blank" class="text-4xl text-gray-400 hover:text-white transition-transform transform hover:scale-125">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="mt-12 border-t border-gray-700 pt-6">
+                <p class="text-gray-500">© 2024 Shubhajit Patra. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileMenuLinks = mobileMenu.getElementsByTagName('a');
+        for (let link of mobileMenuLinks) {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        }
+    </script>
+
+</body>
+</html>
